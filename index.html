@@ -1,0 +1,40 @@
+<!doctype html>
+<html lang="en" class="scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 100 100'><rect width='100' height='100' rx='20' fill='%232563EB'/><path d='M30 65 L45 35 L55 52 L62 42 L72 65 Z' fill='white'/></svg>" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eastechy IT Solutions | Web Development & Digital Marketing Agency</title>
+    <meta name="description" content="Grow your enterprise with Eastechy IT Solutions. Custom website development, SEO, performance PPC, and scalable IT solutions led by Sandeep Murarishetty." />
+    <meta name="keywords" content="Eastechy IT Solutions, web development company, digital marketing agency, Sandeep Murarishetty, SEO services, PPC, Hyderabad, Visakhapatnam, India" />
+    
+    <!-- Open Graph -->
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Eastechy IT Solutions | Web Development & Digital Agency" />
+    <meta property="og:description" content="Grow your brand with Eastechy IT Solutions' custom web design, SEO, PPC, and digital technology services." />
+    <meta property="og:site_name" content="Eastechy IT Solutions" />
+
+    <!-- Google Fonts Poppins & Inter -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- Immediate theme initializer script to prevent flash -->
+    <script>
+      (function() {
+        try {
+          var saved = localStorage.getItem('eastechy_theme') || localStorage.getItem('shiftwave_theme');
+          if (saved === 'dark') {
+            document.documentElement.classList.add('dark');
+            document.documentElement.setAttribute('data-theme', 'dark');
+          } else {
+            document.documentElement.classList.remove('dark');
+            document.documentElement.setAttribute('data-theme', 'light');
+          }
+        } catch (e) {}
+      })();
+    </script>
+  </head>
+  <body class="bg-white dark:bg-[#121214] text-[#444] dark:text-[#ddd] font-poppins selection:bg-[#2563EB] selection:text-white transition-colors duration-300">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
